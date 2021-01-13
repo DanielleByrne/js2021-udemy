@@ -3,7 +3,6 @@
 // let firstName = "jonas";
 // console.log(firstName);
 
-
 // let javascriptIsFun = true;
 // console.log(javascriptIsFun);
 
@@ -15,7 +14,6 @@
 // javascriptIsFun = "yeah"
 // console.log(typeof javascriptIsFun);
 
-
 // let year;
 // console.log(typeof year);
 
@@ -23,14 +21,34 @@
 // console.log(typeof year);
 
 // console.log(typeof null);
-const now = 2037
+// const now = 2037;
+// const ageDani = now - 1995;
+// const ageBrandon = now - 1993;
+// console.log(ageDani, ageBrandon);
+
+// const firstName = "Danielle";
+// const lastName = "Byrne";
+// console.log(firstName + " " + lastName);
+
+// const isFullAge = ageDani >= 18;
+// console.log(isFullAge);
+
+//OPERATOR PRECIDENCE
+const now = 2021;
 const ageDani = now - 1995;
 const ageBrandon = now - 1993;
-console.log(ageDani, ageBrandon)
 
-const firstName = "Danielle";
-const lastName = "Byrne"; 
-console.log(firstName + " " + lastName)
+console.log(now - 1993 > now - 1995);
 
-const isFullAge = ageDani >= 18;
-console.log(isFullAge)
+console.log(25 - 10 - 5);
+
+let x, y;
+
+x = y = 25 - 10 - 5;
+
+console.log(x,y)
+// both are 10 because the - takes precedence over =
+// = is executed right to left 
+
+const averageAge = (ageDani + ageBrandon) / 2 
+console.log( ageDani, ageBrandon, averageAge)
