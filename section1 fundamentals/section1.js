@@ -77,10 +77,10 @@
 const age = 15;
 
 if (age >= 18) {
-  console.log(`they can start driving 🎉`);
+//   console.log(`they can start driving 🎉`);
 } else {
   const yearsLeft = 18 - age;
-  console.log(` they have ${yearsLeft} years left before they can drive 😬`);
+//   console.log(` they have ${yearsLeft} years left before they can drive 😬`);
 }
 
 const birthYear = 2012;
@@ -92,4 +92,4 @@ if (birthYear <= 2000) {
   century = 21;
 }
 
-console.log(century);
+// console.log(century);
