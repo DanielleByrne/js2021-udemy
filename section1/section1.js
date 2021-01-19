@@ -38,17 +38,17 @@ const now = 2021;
 const ageDani = now - 1995;
 const ageBrandon = now - 1993;
 
-console.log(now - 1993 > now - 1995);
+// console.log(now - 1993 > now - 1995);
 
-console.log(25 - 10 - 5);
+// console.log(25 - 10 - 5);
 
 let x, y;
 
 x = y = 25 - 10 - 5;
 
-console.log(x,y)
+// console.log(x,y)
 // both are 10 because the - takes precedence over =
 // = is executed right to left 
 
 const averageAge = (ageDani + ageBrandon) / 2 
-console.log( ageDani, ageBrandon, averageAge)
+// console.log( ageDani, ageBrandon, averageAge)
