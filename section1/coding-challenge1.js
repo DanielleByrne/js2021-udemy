@@ -12,13 +12,15 @@
 // § Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 // GOOD LUCK 😀
 
-marksBMI1 = 78 / 1.69**2 
-console.log(marksBMI1) 
 
-johnsBMI1 = 92 / 1.95**2
-console.log(johnsBMI1)
+//Math is right but didn't save the variables correctly
+// marksBMI1 = 78 / 1.69**2 
+// console.log(marksBMI1) 
 
+// johnsBMI1 = 92 / 1.95**2
+// console.log(johnsBMI1)
 
+//test data 1 
 const massMark = 78;
 const heightMark=1.69;
 const massJohn = 92;
@@ -29,3 +31,19 @@ const BMIJohn = massJohn / heightJohn **2
 
 console.log(BMIMark, BMIJohn);
 
+const markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
+
+//test  data 2
+const massMark2 = 95;
+const heightMark2=1.88;
+const massJohn2 = 85;
+const heightJohn2= 1.76;
+
+const BMIMark2 = massMark2 / heightMark2 **2 
+const BMIJohn2 = massJohn2 / heightJohn2 **2
+
+console.log(BMIMark2, BMIJohn2);
+
+const markHigherBMI2 = BMIMark2 > BMIJohn2;
+console.log(markHigherBMI2);
