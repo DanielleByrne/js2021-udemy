@@ -33,7 +33,7 @@
 // const isFullAge = ageDani >= 18;
 // console.log(isFullAge);
 
-//OPERATOR PRECIDENCE
+//-----------------OPERATOR PRECIDENCE-------------------
 const now = 2021;
 const ageDani = now - 1995;
 const ageBrandon = now - 1993;
@@ -52,3 +52,16 @@ x = y = 25 - 10 - 5;
 
 const averageAge = (ageDani + ageBrandon) / 2 
 // console.log( ageDani, ageBrandon, averageAge)
+
+
+//--------------STRINGS ANS TEMPLATE LITERALS------------------
+
+const firstName = "Dani";
+const job = "loser";
+const birthYear = 1995;
+const year = 2021
+const dani = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + ' :(';
+console.log(dani)
+
+const daniNew = `I'm ${firstName} a ${year-birthYear} years old ${job} :(` 
+console.log(daniNew)
