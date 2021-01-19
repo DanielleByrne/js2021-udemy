@@ -34,34 +34,62 @@
 // console.log(isFullAge);
 
 //-----------------OPERATOR PRECIDENCE-------------------
-const now = 2021;
-const ageDani = now - 1995;
-const ageBrandon = now - 1993;
+// const now = 2021;
+// const ageDani = now - 1995;
+// const ageBrandon = now - 1993;
 
 // console.log(now - 1993 > now - 1995);
 
 // console.log(25 - 10 - 5);
 
-let x, y;
+// let x, y;
 
-x = y = 25 - 10 - 5;
+// x = y = 25 - 10 - 5;
 
 // console.log(x,y)
 // both are 10 because the - takes precedence over =
-// = is executed right to left 
+// = is executed right to left
 
-const averageAge = (ageDani + ageBrandon) / 2 
+// const averageAge = (ageDani + ageBrandon) / 2;
 // console.log( ageDani, ageBrandon, averageAge)
-
 
 //--------------STRINGS ANS TEMPLATE LITERALS------------------
 
-const firstName = "Dani";
-const job = "loser";
-const birthYear = 1995;
-const year = 2021
-const dani = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + ' :(';
-console.log(dani)
+// const firstName = "Dani";
+// const job = "loser";
+// const birthYear = 1995;
+// const year = 2021;
+// const dani =
+//   "I'm " +
+//   firstName +
+//   ", a " +
+//   (year - birthYear) +
+//   " years old " +
+//   job +
+//   " :(";
+// console.log(dani)
 
-const daniNew = `I'm ${firstName} a ${year-birthYear} years old ${job} :(` 
-console.log(daniNew)
+// const daniNew = `I'm ${firstName} a ${year - birthYear} years old ${job} :(`;
+// console.log(daniNew)
+
+// ------------ IF / ELSE  STATEMENTS -----------------------
+
+const age = 15;
+
+if (age >= 18) {
+  console.log(`they can start driving 🎉`);
+} else {
+  const yearsLeft = 18 - age;
+  console.log(` they have ${yearsLeft} years left before they can drive 😬`);
+}
+
+const birthYear = 2012;
+
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
