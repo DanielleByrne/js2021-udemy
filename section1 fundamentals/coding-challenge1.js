@@ -14,7 +14,6 @@
 // § Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 // GOOD LUCK 😀
 
-
 //Math is right but didn't save the variables correctly
 // marksBMI1 = 78 / 1.69**2 
 // console.log(marksBMI1) 
@@ -52,6 +51,7 @@
 
 
 //---------------------------------------- CODING CHALLENGE 2 --------------------------
+
 // Use the BMI example from Challenge #1, and the code you already wrote, and improve it.
 // Your tasks:
 // 1. Print a nice out put to the console, saying who has the higher BMI. The message is either 
