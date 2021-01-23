@@ -94,9 +94,7 @@
 
 // console.log(century);
 
-
 //-------------------TYPE CONVERSION AND COERSION ------------------------------
-
 
 // TYPE CONVERSION
 const inputYear = "1995";
@@ -106,7 +104,15 @@ console.log(Number(inputYear) + 18);
 console.log(Number("Dani"));
 console.log(typeof NaN);
 
-console.log(String(23), 23); 
+console.log(String(23), 23);
 
-// TYPE COERCION 
+// TYPE COERCION
 
+console.log("I am " + 25 + "years old");
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n)
+//it's 10 , because "1" + 1 is 11 because the number one gets converted to
+// another string 1 making 11
+// then in the next line it's 11 -1, making 10 
