@@ -74,22 +74,39 @@
 
 // ------------ IF / ELSE  STATEMENTS -----------------------
 
-const age = 15;
+// const age = 15;
 
-if (age >= 18) {
-//   console.log(`they can start driving 🎉`);
-} else {
-  const yearsLeft = 18 - age;
+// if (age >= 18) {
+// //   console.log(`they can start driving 🎉`);
+// } else {
+//   const yearsLeft = 18 - age;
 //   console.log(` they have ${yearsLeft} years left before they can drive 😬`);
-}
+// }
 
-const birthYear = 2012;
+// const birthYear = 2012;
 
-let century;
-if (birthYear <= 2000) {
-  century = 20;
-} else {
-  century = 21;
-}
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
 
 // console.log(century);
+
+
+//-------------------TYPE CONVERSION AND COERSION ------------------------------
+
+
+// TYPE CONVERSION
+const inputYear = "1995";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Dani"));
+console.log(typeof NaN);
+
+console.log(String(23), 23); 
+
+// TYPE COERCION 
+
