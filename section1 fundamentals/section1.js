@@ -97,22 +97,53 @@
 //-------------------TYPE CONVERSION AND COERSION ------------------------------
 
 // TYPE CONVERSION
-const inputYear = "1995";
-console.log(Number(inputYear), inputYear);
-console.log(Number(inputYear) + 18);
+// const inputYear = "1995";
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
 
-console.log(Number("Dani"));
-console.log(typeof NaN);
+// console.log(Number("Dani"));
+// console.log(typeof NaN);
 
-console.log(String(23), 23);
+// console.log(String(23), 23);
 
-// TYPE COERCION
+// // TYPE COERCION
 
-console.log("I am " + 25 + "years old");
+// console.log("I am " + 25 + "years old");
 
-let n = "1" + 1;
-n = n - 1;
-console.log(n)
+// let n = "1" + 1;
+// n = n - 1;
+// console.log(n)
 //it's 10 , because "1" + 1 is 11 because the number one gets converted to
 // another string 1 making 11
-// then in the next line it's 11 -1, making 10 
+// then in the next line it's 11 -1, making 10
+
+//-------------------TRUTHY AND FALSY VALUES ------------------------------
+// necessary for booleans
+// not initially false values, will become false when converted to a boolean
+// 5 values: 0 , " " , undefined , null , Nan . False isn't in the list because it is already false.
+// anything else will be a truthy value
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("dani"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+// const money = 100;
+
+// if (money) {
+//   //js converts things where "money" is to a boolean, if true, else if false, coersion  
+//   console.log("Don't spend it all in one place");
+// } else {
+//   console.log("get a job loser");
+// }
+
+// let height = 0;
+// // if we set height to 0 it will be undefined still because 0 is a falsy value 
+// if (height){
+//   console.log("you defined height")
+// } else {
+//   console.log ("height is undefined ")
+// } 
+
+//------------------- EQUALITY OPERATORS == VS === ------------------------------
