@@ -123,11 +123,11 @@
 // 5 values: 0 , " " , undefined , null , Nan . False isn't in the list because it is already false.
 // anything else will be a truthy value
 
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean("dani"));
-console.log(Boolean({}));
-console.log(Boolean(""));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("dani"));
+// console.log(Boolean({}));
+// console.log(Boolean(""));
 
 // const money = 100;
 
